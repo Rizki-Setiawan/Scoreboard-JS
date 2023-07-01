@@ -38,8 +38,14 @@ input[type="button"] {
   border-radius: 20px;
   font-size: 50pt;
 }
+input[type="button"]:hover {
+  background-color: #a8b2bd;
+}
 
 input[disabled] {
   background-color: #2f3031;
   cursor: not-allowed;
+}
+input[disabled]:hover {
+  background-color: #2f3031;
 }
