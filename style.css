@@ -38,7 +38,6 @@ input[type="button"] {
   cursor: pointer;
   border-radius: 20px;
   font-size: 50pt;
-  color: red;
 }
 
 input[type="button"]:hover {
