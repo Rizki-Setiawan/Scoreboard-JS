@@ -8,6 +8,7 @@
 header {
   height: 6rem;
   background-color: darkcyan;
+  text-align: center;
 }
 
 main {
@@ -39,15 +40,15 @@ input[type="button"] {
   font-size: 50pt;
 }
 
-/* input[type="button"]:hover {
+input[type="button"]:hover {
   background-color: #a8b2bd;
-} */
+}
 
 input[disabled] {
   background-color: #2f3031;
   cursor: not-allowed;
 }
 
-/* input[disabled]:hover {
+input[disabled]:hover {
   background-color: #2f3031;
-} */
+}
