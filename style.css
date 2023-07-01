@@ -33,4 +33,6 @@ input[type="button"] {
   width: 150px;
   height: 80px;
   float: none;
+  background-color: #78828c;
+  border: none;
 }
