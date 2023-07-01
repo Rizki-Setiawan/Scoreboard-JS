@@ -35,4 +35,10 @@ input[type="button"] {
   float: none;
   background-color: #78828c;
   border: none;
+  cursor: pointer;
+}
+
+input[disabled] {
+  background-color: #2f3031;
+  cursor: not-allowed;
 }
