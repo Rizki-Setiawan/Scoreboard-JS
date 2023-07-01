@@ -32,10 +32,11 @@ footer {
 input[type="button"] {
   width: 150px;
   height: 80px;
-  float: none;
   background-color: #78828c;
   border: none;
   cursor: pointer;
+  border-radius: 20px;
+  font-size: 50pt;
 }
 
 input[disabled] {
