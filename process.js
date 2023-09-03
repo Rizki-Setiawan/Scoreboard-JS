@@ -53,6 +53,7 @@ scoreboard.addEventListener("click", (evt) => {
     }
 }, false)
 
+// add comment
 
 // let tambah1 = document.getElementById("tambah1");
 // let tambah2 = document.getElementById("tambah2");
