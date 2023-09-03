@@ -38,20 +38,27 @@ function kurangNilaiB() {
     }
 }
 
-scoreboard.addEventListener("click", (evt) => {
-    let target = evt.target;
-    if (target.id === "tambahA") {
-        tambahNilaiA();
-    } else if (target.id === "tambahB") {
-        tambahNilaiB();
-    } else if (target.id === "kurangA") {
-        kurangNilaiA();
-    } else if (target.id === "kurangB") {
-        kurangNilaiB();
-    } else {
-        console.error();
-    }
-}, false)
+scoreboard.addEventListener(
+    "click",
+    (evt) => {
+        let target = evt.target;
+        if (target.id === "tambahA") {
+            tambahNilaiA();
+        } else if (target.id === "tambahB") {
+            tambahNilaiB();
+        } else if (target.id === "kurangA") {
+            kurangNilaiA();
+        } else if (target.id === "kurangB") {
+            kurangNilaiB();
+        } else {
+            console.error();
+        }
+    },
+    false,
+);
+
+console.log("fitur payment");
+console.log("fitur search");
 
 // add comment
 
@@ -74,4 +81,3 @@ scoreboard.addEventListener("click", (evt) => {
 //     count2 += 1;
 //     document.getElementById('counter2').innerHTML = count2;
 // }
-
